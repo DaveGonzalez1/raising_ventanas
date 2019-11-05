@@ -21,6 +21,13 @@
         box-shadow: 2px 2px 20px#707070;
     }
     
+    img {
+        width: 150px;
+        position: center;
+        margin-left: 105px;
+        margin-top: 65px;
+    }
+    
     .formu {
         display: grid;
         width: 322px;
@@ -29,8 +36,8 @@
         box-shadow: 0px 0px 7px #707070;
         background-color: #FFFFFF;
         align-items: stretch;
-        margin-left: 20px;
-        margin-top: 213px;
+        margin-left: 25px;
+        margin-top: -220px;
         border-radius: 11px;
     }
     
@@ -41,12 +48,20 @@
         background-color: #A937F0;
         border-radius: 11px 0px 0px 0px;
         border: #707070 .1px solid;
+        font-family: Segoe UI;
+        text-align: center;
+        font-size: 21px;
+        color: #FFFFFF;
     }
     
     .pest1:hover {
         background-color: #FFFFFF;
         border-radius: 11px 0px 0px 0px;
         border: #707070 .1px solid;
+        text-align: center;
+        font-family: Segoe UI;
+        font-size: 21px;
+        color: #A937F0;
     }
     
     .pest2 {
@@ -56,26 +71,16 @@
         background-color: #A937F0;
         border-radius: 0px 11px 0px 0px;
         border: #707070 .1px solid;
+        font-family: Segoe UI;
+        text-align: center;
+        font-size: 21px;
+        color: #FFFFFF;
     }
     
     .pest2:hover {
         background-color: #FFFFFF;
         border-radius: 0px 11px 0px 0px;
         border: #707070 .1px solid;
-    }
-    
-    .pest1 p,
-    .pest2 p {
-        font-family: Segoe UI;
-        text-align: center;
-        font-size: 21px;
-        color: #FFFFFF;
-        margin-top: 17px;
-    }
-    
-    .pest1 p:hover,
-    .pest2 p:hover {
-        margin-top: 17px;
         text-align: center;
         font-family: Segoe UI;
         font-size: 21px;
@@ -116,21 +121,4 @@
         background-color: #EF14B5;
         border: #EF14B5 1.5px solid;
         color: rgb(255, 255, 255);
-    }
-    
-    .registrate {
-        height: 18px;
-        font-family: arial;
-        color: #A937F0;
-        margin-top: 60px;
-        margin-right: 20px;
-        justify-self: right;
-    }
-    
-    a:link {
-        color: rgb(169, 55, 240);
-    }
-    
-    a:hover {
-        color: #EF14B5;
     }
