@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
     <meta charset="utf-8" />
     <title>login app</title>
@@ -12,6 +15,7 @@
             background-color: white;
             position: relative;
             border: #EF14B5 .5px solid;
+            margin: -10px;
         }
         
         .fondologo {
@@ -25,29 +29,37 @@
         img {
             position: absolute;
             top: 45px;
-            left: 110px;
+            left: 127px;
         }
         
-        .botonstartup {
+        #botonstartup {
             width: 161px;
             height: 65px;
             background-color: white;
             position: absolute;
-            top: 210px;
+            top: 211px;
             left: 26px;
             border-radius: 25px 0px 0px 0px;
-            box-shadow: 2px 2px 8pxr gba(239, 20, 181, 1);
             color: #A937F0;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            border: white;
         }
         
-        .botoninversionista {
+        #botoninversionista {
             width: 161px;
             height: 65px;
             background-color: #A937F0;
             position: absolute;
             border-radius: 0px 25px 0px 0px;
-            top: 210px;
-            right: 27px;
+            top: -64px;
+            right: -0px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: white;
+            border: #A937F0;
         }
         
         .registro {
@@ -62,32 +74,34 @@
         }
         
         #email {
-            top: 100px;
-            left: 20px;
-            border: #A937F0 .5px solid;
+            top: 98px;
+            left: 48px;
+            border: #EF14B5 .5px solid;
             align-items: center;
             position: relative;
             width: 279px;
             height: 48px;
             border-radius: 25px 25px 25px 25px;
             text-align: center;
+            color: #A937F0;
         }
         
         #password {
             top: 150px;
-            left: 20px;
-            border: #A937F0 .5px solid;
+            left: 48px;
+            border: #EF14B5 .5px solid;
             align-items: center;
             position: relative;
             width: 279px;
             height: 48px;
             border-radius: 25px 25px 25px 25px;
             text-align: center;
+            color: #A937F0;
         }
         
         #boton {
             top: 190px;
-            left: 20px;
+            left: 46px;
             align-items: center;
             position: relative;
             width: 279px;
@@ -95,51 +109,35 @@
             border-radius: 25px 25px 25px 25px;
             background-color: #A937F0;
             color: #ffff;
-        }
-        
-        .startup {
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
-        }
-        
-        .inversionista {
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
-            color: white;
+            border: #A937F0;
         }
     </style>
     <!--Aquí empieza html-->
     <div class="base">
         <div class="fondologo">
             <center>
-                <img src="logo/logo.png" width="160px" height="121px" />
+                <img src="logo/logo.png" width="121px" height="121px" />
             </center>
 
         </div>
         <div class="mesa de trabajo">
-
-        </div>
-        <div class="botonstartup">
-            <p class="startup">Startup</p>
-
-        </div>
-        <div class="botoninversionista">
-            <p class="inversionista">Inversionista</p>
-
-        </div>
-
-        <div class="registro">
+            <div class="registro">
+                <input type="button" value="Inversionista" id="botoninversionista">
+            </div>
+            <input type="button" value="Startup" id="botonstartup">
             <form action="" method="">
-                <input type="email" value="Correo Electronico" name="" id="email">
-                <input type="password" value="Contraseña" name="" id="password">
+                <input type="email" placeholder="Correo Electronico" name="" id="email">
+                <input type="password" placeholder="Contraseña" name="" id="password">
                 <input type="button" value="Terminar" id="boton">
             </form>
-
         </div>
+    </div>
+
+    </div>
 
 
 
     </div>
 </body>
+
+</html>
