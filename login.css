@@ -90,7 +90,7 @@ img {
 input {
     width: 279px;
     height: 48px;
-    left: 15px;
+    left: 20px;
     border: #A937F0 1.5px solid;
     font-family: arial;
     color: #A937F0;
@@ -106,16 +106,16 @@ input {
     margin-top: 20px;
     padding-left: 10px;
     width: 279px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 #Ingresar {
-    top: 65px;
-    left: 10px;
-    align-items: center;
-    position: relative;
     width: 279px;
     height: 48px;
+    top: 65px;
+    left: 15px;
+    align-items: center;
+    position: relative;
     border-radius: 25px 25px 25px 25px;
     background-color: rgb(152, 20, 239);
     border: #A937F0 1.5px solid;
