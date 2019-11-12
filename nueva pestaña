@@ -1,1 +1,103 @@
-nuevo html
+<html>
+    <center>
+    
+    <style>
+        .rec {
+            position: relative;
+            width: 375px;
+            height: 812px;
+            background-color: white;
+        background: linear-gradient(90deg, rgb(243, 240, 247) 0%, rgb(218, 212, 216) 50%);
+           
+        }
+.cuadrado {
+     
+    width: 300px; 
+     height: 700px;
+     border: 2px solid #555;
+     background: rgb(65, 139, 199);
+     position: relative;
+     top: 40px;
+}
+.numero{
+            
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            color: rgb(172, 240, 46);
+            position: relative;
+            top: 40px;
+        }
+.ADICOM {
+            
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 60px;
+            color: rgb(239, 243, 231);
+            position: relative;
+            top: 300px;
+        }
+.circulo {
+            background: rgb(248, 248, 248); 
+            border-radius: 300%; 
+            height: 90px;
+             width: 90px;
+             position: relative;
+             top: -130px;
+            }
+.numero6{
+            
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color:#a11ec2;
+            position: relative;
+            top: -220px;
+        }
+ .redondeado {
+            background: rgb(211, 211, 211); 
+            border-radius: 200%; 
+            border: yellow;
+            height: 50px; 
+            width: 50px;
+            text-align:left;
+            position: absolute;
+            top: 600px;
+            left:30px;
+
+        }
+.redondeado2 {
+            background: rgb(211, 211, 211); 
+            border-radius: 200%; 
+            border: yellow;
+            height: 50px; 
+            width: 50px;
+            text-align:right;
+            position: absolute;
+            top: 600px;
+            left: 230px;
+
+        }
+    
+        
+
+    </style>
+    
+    <body>
+            <div class="rec">
+                <div class="cuadrado">
+                        <p class="numero">$1,000,000</p>
+                        <p class="ADICOM">ADICOM</p>
+                        <p class="circulo"></p>
+                        <p class="numero6">6to</p>
+                        <p class="redondeado"></p>
+                        <p class="redondeado2"></p>
+                        
+                </div>
+            </div>
+            
+            
+            
+     </body>        
+    </center>
+</html>
