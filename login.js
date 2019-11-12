@@ -17,30 +17,48 @@ function eleccion1() {
 
 
 }
-//document.getElementById("Ingresar").addEventListener("click", Ingresa);
 
-function Ingresa() {
-    var correo = document.getElementById('email').value;
-    if (correo == null || correo.length == 0 || /^\s+$/.test(correo)) {
-        alert('Por favor llena esccribe tu correo');
-        document.getElementById("email").focus();
+
+function validar() {
+    var filtro = /^(?:[^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*|"[^\n"]+")@(?:[^<>()[\].,;:\s@"]+\.)+[^<>()[\]\.,;:\s@"]{2,63}$/i;
+    //var correo = document.getElementById('email').value;
+
+    if (!filtro.test(email.value)) {
+        alert("escribe una direccion de correo electronico valido");
+        email.focus();
+        return false;
+    } else if (password.value == "" || password.length == 0 || /^\s+$/.test(password)) {
+
+        alert('Por favor escribe tu contraseña');
+
+        password.focus();
+
         return false;
     } else {
-        var password = document.getElementById('password').value;
-        if (password == null || password.length == 0 || /^\s+$/.test(password)) {
-            alert('Por favor llena esccribe tu contraseña');
-            document.getElementById("password").focus();
 
-            return false;
+        document.getElementById("Ingresar").style.opacity = 1;
 
-        } else(password == true)
-        return document.getElementById("Ingresar").style.opacity = 1;
-
-
-        //correo.innerHTML = ""
-        //password.innerHTML = ""
+        return true;
 
 
 
     }
+
+}
+
+
+
+
+document.getElementById("Ingresar").addEventListener('click', function(e) {
+    if (validar() == true) {
+        alert('se han nviado sus datos');
+        limpiar();
+    }
+}, true);
+
+
+function limpiar() {
+    form.reset();
+    return true;
+
 }

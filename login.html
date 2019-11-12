@@ -25,13 +25,13 @@
 
 
             <div class="registro">
-                <form class="form1" id="">
-                    <input type="email" name="email" id="email" placeholder="Correo Electronico">
+                <form method="POST" class="form1" id="form" onsubmit="return validar();">
+                    <input type="text" name="email" id="email" placeholder="Correo Electronico">
                     <input type="password" name="password" id="password" placeholder="Contraseña">
 
                 </form>
 
-                <button id="Ingresar" onclick="Ingresa()">INGRESAR</button>
+                <button type="submit" id="Ingresar">INGRESAR</button>
             </div>
 
         </div>
