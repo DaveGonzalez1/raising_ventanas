@@ -1,0 +1,107 @@
+    .base {
+        width: 375px;
+        height: 812px;
+        background-color: white;
+        position: relative;
+        border: #EF14B5 .5px solid;
+    }
+    
+    .top {
+        height: 319px;
+        width: 375px;
+        background: rgb(152, 20, 239);
+        background: linear-gradient(90deg, rgba(152, 20, 239, 1) 0%, rgba(239, 20, 181, 1) 50%);
+        position: relative;
+    }
+    
+    .pest1 {
+        width: 165px;
+        height: 121px;
+        top: 200px;
+        left: 25px;
+        background-color: white;
+        position: absolute;
+        border-radius: 25px 0px 0px 0px;
+        border: black .5px solid;
+    }
+    
+    .pest2 {
+        width: 165px;
+        height: 121px;
+        top: 200px;
+        right: 26px;
+        background-color: #9814EF;
+        position: absolute;
+        border-radius: 0px 25px 0px 0px;
+    }
+    
+    .formu {
+        width: 322px;
+        height: 430px;
+        top: 275px;
+        left: 25px;
+        background-color: white;
+        position: absolute;
+        border: #EF14B5 .5px solid;
+        border-radius: 0px 0px 25px 25px;
+        box-shadow: 2px 2px 8px rgb(152, 20, 239);
+    }
+    
+    #email {
+        top: 100px;
+        left: 20px;
+        width: 279px;
+        height: 48px;
+        border: #EF14B5 .5px solid;
+        align-items: center;
+        position: relative;
+        border-radius: 25px 25px 25px 25px;
+        text-align: center;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    
+    #password {
+        top: 150px;
+        left: 20px;
+        width: 279px;
+        height: 48px;
+        border: #EF14B5 .5px solid;
+        align-items: center;
+        position: relative;
+        border-radius: 25px 25px 25px 25px;
+        text-align: center;
+        text-align: center;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    
+    #boton {
+        top: 190px;
+        left: 20px;
+        width: 279px;
+        height: 48px;
+        border: #EF14B5 .5px solid;
+        align-items: center;
+        position: relative;
+        border-radius: 25px 25px 25px 25px;
+        background-color: rgb(152, 20, 239);
+        color: #ffff;
+    }
+    
+    .startup {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    .inversionista {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+    }
