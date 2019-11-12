@@ -1,16 +1,16 @@
 .principal {
 width: 375px;
 height: 812px;
-background: rgb(11,11,11);
-background: linear-gradient(180deg, rgba(11,11,11,1) 0%, rgba(0,0,0,1) 0%, rgba(101,95,95,1) 20%, rgba(255,255,255,1) 100%);
+background: rgb(119,121,123);
+background: linear-gradient(180deg, rgba(119,121,123,1) 0%, rgba(205,209,189,1) 22%, rgba(241,242,236,1) 36%, rgba(255,255,255,1) 100%);
 
 }
 
 .principal-cabecera {
-    height: 730px;
-    width: 300px;
-    background: rgb(49,49,233);
-    background: linear-gradient(180deg, rgba(49,49,233,1) 42%, rgba(95,140,224,1) 93%, rgba(116,173,221,1) 100%);
+    height: 694px;
+    width: 311px;
+    background: #2EB0D9;
+   
     position: relative;
     left:40px;
     top:40px;
@@ -21,13 +21,13 @@ body{
 }
 
 .cabecera-circulo1 {
-    width: 389px;
-    height: 389px;
+    width: 403px;
+    height: 403px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: white;
-    opacity: 0.1;
+    opacity: 0.2;
     position: relative;
     top: -47px;
     left: -44px;
@@ -39,16 +39,16 @@ body{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #79b8ec;
-    opacity: 0.5;
+    background: white;
+    opacity: 0.2;
     position: relative;
     top: -365px;
     left: 27px;
 
 }
 .cabecera-circulo3 {
-    width: 100px;
-    height: 100px;
+    width: 103px;
+    height: 103px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -61,7 +61,7 @@ body{
     position: relative;
     left: 38px;
     top: -878px;
-    color: rgb(107, 236, 56);
+    color: #F1FA3C;
     font-size: 26px;
 }
 
@@ -77,33 +77,33 @@ body{
 
 .cabecera-lugar{
     position: relative;
-    left: 122px;
-    top: -568px;
+    left: 129px;
+    top: -559px;
     color: #A937F0;
-    font-size: 50px
+    font-size: 42px;
 }
 
 .boton-estadisticas{
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
     border-radius: 200px 200px 200px 200px;
 -moz-border-radius: 200px 200px 200px 200px;
 -webkit-border-radius: 200px 200px 200px 200px;
-border: 4px solid rgb(107, 236, 56);
-background:#5f8ce0 ;
+border: 4px solid#DBE336;
+background:#2EB0D9 ;
     position: relative;
     left: 42px;
     top: -459px;
     
 }
 .boton-lista{
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
     border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
-    border: 4px solid rgb(107, 236, 56);
-    background:#5f8ce0 ;
+    border: 4px solid #DBE336;
+    background:#2EB0D9;
     position: relative;
     left: 170px;
     top: -459px;
