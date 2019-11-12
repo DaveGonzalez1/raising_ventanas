@@ -1,0 +1,110 @@
+.principal {
+width: 375px;
+height: 812px;
+background: rgb(11,11,11);
+background: linear-gradient(180deg, rgba(11,11,11,1) 0%, rgba(0,0,0,1) 0%, rgba(101,95,95,1) 20%, rgba(255,255,255,1) 100%);
+
+}
+
+.principal-cabecera {
+    height: 730px;
+    width: 300px;
+    background: rgb(49,49,233);
+    background: linear-gradient(180deg, rgba(49,49,233,1) 42%, rgba(95,140,224,1) 93%, rgba(116,173,221,1) 100%);
+    position: relative;
+    left:40px;
+    top:40px;
+}
+
+body{
+    margin: 0%;
+}
+
+.cabecera-circulo1 {
+    width: 389px;
+    height: 389px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.1;
+    position: relative;
+    top: -47px;
+    left: -44px;
+
+}
+.cabecera-circulo2 {
+    width: 252px;
+    height: 252px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #79b8ec;
+    opacity: 0.5;
+    position: relative;
+    top: -365px;
+    left: 27px;
+
+}
+.cabecera-circulo3 {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+    top: -443px;
+    left: 103px;
+}
+.cabecera-cantidad{
+    position: relative;
+    left: 38px;
+    top: -878px;
+    color: rgb(107, 236, 56);
+    font-size: 26px;
+}
+
+
+.cabecera-nombre{
+    position: relative;
+    left: 52px;
+    top: -497px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecera-lugar{
+    position: relative;
+    left: 122px;
+    top: -568px;
+    color: #A937F0;
+    font-size: 50px
+}
+
+.boton-estadisticas{
+    width: 50px;
+    height: 50px;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 4px solid rgb(107, 236, 56);
+background:#5f8ce0 ;
+    position: relative;
+    left: 42px;
+    top: -459px;
+    
+}
+.boton-lista{
+    width: 50px;
+    height: 50px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 4px solid rgb(107, 236, 56);
+    background:#5f8ce0 ;
+    position: relative;
+    left: 170px;
+    top: -459px;
+}
