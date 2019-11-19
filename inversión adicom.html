@@ -86,23 +86,45 @@
         .grafica {
             position: absolute;
             top: 580px;
-            left: 25px;
+            left: 50px;
         }
         
         .like {
             position: absolute;
             top: 580px;
-            left: 245px;
+            left: 264px;
+        }
+        
+        #border1 {
+            width: 56px;
+            height: 56px;
+            background-color: rgba(240, 250, 60, 0);
+            position: absolute;
+            border-radius: 100%;
+            top: -18px;
+            right: -17px;
+        }
+        
+        #border2 {
+            width: 56px;
+            height: 56px;
+            background-color: rgba(240, 250, 60, 0);
+            position: absolute;
+            border-radius: 100%;
+            top: -18px;
+            left: -20px;
         }
     </style>
     <!--aqui empieza el html-->
     <div class="base">
         <div class="mesadetrabajo">
             <div class="grafica">
-                <img src="logo/grafica.png" width="56px" height="56px" />
+                <input type="button" value="" id="border1">
+                <img src="logo/grafica.png" width="20px" height="20px" />
             </div>
             <div class="like">
-                <img src="logo/like.png" width="56px" height="56px" />
+                <input type="button" value="" id="border2">
+                <img src="logo/like.png" width="20px" height="20px" />
             </div>
             <div class="circulo1"></div>
             <div class="circulo2"></div>
