@@ -122,3 +122,115 @@ input {
     color: #ffff;
     opacity: .6;
 }
+
+@media screen and (min-width:1024px) {
+    * {
+        margin: 0px;
+    }
+    .container {
+        width: 100%;
+        height: 2436px;
+        align-items: stretch;
+        background-color: #FFFFFF;
+    }
+    .cabeza {
+        width: 100%;
+        height: 50%;
+        background: rgb(152, 20, 239);
+        background: linear-gradient(45deg, rgba(152, 20, 239, 1) 0%, rgba(239, 20, 181, 1) 100%, rgba(0, 212, 255, 1) 100%);
+        border: #5887F9;
+        box-shadow: 2px 2px 20px#707070;
+    }
+    img {
+        width: 300px;
+        position: center;
+        margin-left: 350px;
+        margin-top: 65px;
+    }
+    .formu {
+        display: grid;
+        width: 700px;
+        height: 860px;
+        grid-template-columns: 50% 50%;
+        box-shadow: 0px 0px 21px #707070;
+        background-color: #FFFFFF;
+        align-items: stretch;
+        margin-left: 170px;
+        margin-top: -980px;
+        border-radius: 33px;
+    }
+    .pest1.active {
+        background-color: #FFFFFF;
+        border: #ffffff .3px solid;
+        color: #A937F0;
+    }
+    .pest1 {
+        height: 150px;
+        grid-column: 1/2;
+        background-color: #A937F0;
+        border: #A937F0 .3px solid;
+        color: #FFFFFF;
+        align-self: flex-start;
+        border-radius: 33px 0px 0px 0px;
+        border: #707070 .1px solid;
+        font-family: Segoe UI;
+        text-align: center;
+        font-size: 42px;
+    }
+    #pest2 {
+        height: 150px;
+        grid-column: 2/3;
+        align-self: flex-start;
+        background-color: #A937F0;
+        border-radius: 0px 33px 0px 0px;
+        border: #707070 .1px solid;
+        font-family: Segoe UI;
+        text-align: center;
+        font-size: 42px;
+        color: #FFFFFF;
+    }
+    .registro {
+        width: 644px;
+        height: 860px;
+        position: relative;
+        border: #ffffff .1px solid;
+        margin-top: 50px;
+        color: #A937F0;
+    }
+    .form1 {
+        width: 644px;
+    }
+    input {
+        width: 458px;
+        height: 100px;
+        left: 20px;
+        border: #A937F0 2px solid;
+        font-family: arial;
+        color: #A937F0;
+        font-size: 52px;
+        border-radius: 50px;
+    }
+    #password,
+    #email {
+        opacity: .5;
+        margin-top: 50px;
+        padding-left: 200px;
+        width: 458px;
+        margin-left: 15px;
+    }
+    #Ingresar {
+        width: 644px;
+        height: 100px;
+        top: 150px;
+        left: 20px;
+        align-items: center;
+        position: relative;
+        border-radius: 50px 50px 50px 50px;
+        background-color: rgb(152, 20, 239);
+        border: #A937F0 1.5px solid;
+        color: #ffff;
+        opacity: .6;
+        font-size: 40px;
+        font-family: Arial;
+    }
+}
