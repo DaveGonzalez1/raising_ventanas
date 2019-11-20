@@ -5,81 +5,87 @@
             background: linear-gradient(180deg, rgba(119, 121, 123, 1) 0%,
              rgba(205, 209, 189, 1) 22%, rgba(241, 242, 236, 1) 36%, rgba(255, 255, 255, 1) 100%);
         }
-        
-        .base {
-            width: 100%;
-            height: 813px;
-            margin: auto;
-            max-width: 1;
-            
+        @media all and (max-width: 50em) {
+            .base  .base-contenido .boton-estadisticas .boton-lista .contenido-circulo1 .contenido-circulo2
+            .contenido-posicion  #h1 {
+              width: 80%;
+              float:none;
+            }
+           
+                 
 
-        }
+        
         
         .base-contenido {
             width: 322px;
             height: 700px;
             background-color: #2EB0D9;
-            position: absolute;
+             
             border-radius: 10px 10px 10px 10px;
             top: 50px;
             left: 26px;
-            margin: auto;
+            margin: 20px auto;
+            max-width: 1000px;
         }
         
-        font {
-            position: absolute;
-            top: 138px;
-            left: 45px;
-            color: #F1FA3C;
+        
           
-        }
+        
         
         .contenido-posicion {
             width: 103px;
-            height: 103px;
-            background-color: white;
-            position: absolute;
-            border-radius: 100%;
-            top: 200px;
-            left: 110px;
+height: 103px;
+background-color:
+white;
+position: relative;
+border-radius: 100%;
+top: -482px;
+left: 118px;
+}
         }
         
         center {
             width: 52px;
             height: 39px;
-            position: absolute;
+            position: relative;
             top: -105px;
             left: -20px;
-            color: black;
+            color:#AA26DA;
         }
         
         .contenido-circulo1 {
             width: 403px;
-            height: 403px;
-            background-color: rgba(255, 255, 255, 0.164);
-            position: absolute;
-            border-radius: 100%;
-            top: -50px;
-            right: -45px;
+height: 403px;
+background-color:
+rgba(255, 255, 255, 0.164);
+position: relative;
+border-radius: 100%;
+top: -50px;
+right: 36px;
         }
         
         .contenido-circulo2 {
             width: 243px;
             height: 243px;
             background-color: rgba(255, 255, 255, 0.247);
-            position: absolute;
+            position: relative;
             border-radius: 100%;
-            top: 37px;
-            right: 36px;
+            top: -400px;
+right: -45px;
         }
         
         H1 {
-            position: absolute;
-            top: 250px;
-            left: 25px;
+            position: relative;
+            top: -470px;
+            left: 70px;
             color: white;
         }
         
+        #lugar{
+            position: relative;
+            top: -460px;
+left: 165px;
+        }
         
         body{
             margin: 0%;
@@ -95,7 +101,7 @@
         background:#2EB0D9 ;
             position: relative;
             left: 42px;
-            top: 600px;
+            top: -357px;
 
             background-image:url(like.png);
             background-repeat:no-repeat;
@@ -112,9 +118,26 @@
             background:#2EB0D9;
             position: relative;
             left: 165px;
-            top: 600px;
+            top: -357px;
 
             background-image:url(grafica.png);
             background-repeat:no-repeat;
             background-position:center;
         }
+
+        #cantidad{
+            position: relative;
+            top: 165px;
+left: 84px;
+            color:#F1FA3C;
+        }
+
+
+
+        @media all and (max-width: 80em) {
+            .base  .base-contenido .boton-estadisticas .boton-lista .contenido-circulo1 .contenido-circulo2
+            .contenido-posicion  #h1 #cantidad #lugar {
+              width: 1000px;
+             
+            }
+      }
