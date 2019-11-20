@@ -4,12 +4,24 @@
             background: linear-gradient(180deg, rgba(119, 121, 123, 1) 0%,
              rgba(205, 209, 189, 1) 22%, rgba(241, 242, 236, 1) 36%, rgba(255, 255, 255, 1) 100%);
         }
-        
+        @media all and (max-width: 50em) {
+            .base  .base-contenido .boton-estadisticas .boton-lista .contenido-circulo1 .contenido-circulo2
+            .contenido-posicion  #h1 {
+              width: 80%;
+              float:none;
+            }
+            @media all and (max-width: 40em) {
+                .base  .base-contenido .boton-estadisticas .boton-lista .contenido-circulo1 .contenido-circulo2
+                .contenido-posicion  #h1 {
+                  width: 80%;
+                  float:none;
+                }
+          }
         .base {
             width: 100%;
             height: 813px;
             margin: auto;
-            max-width: 1;
+            max-width: 500px;
             
 
         }
@@ -18,29 +30,26 @@
             width: 322px;
             height: 700px;
             background-color: #2EB0D9;
-            position: absolute;
+             
             border-radius: 10px 10px 10px 10px;
             top: 50px;
             left: 26px;
-            margin: auto;
+            margin: 20px auto;
         }
         
-        font {
-            position: absolute;
-            top: 138px;
-            left: 45px;
-            color: #F1FA3C;
+        
           
-        }
+        
         
         .contenido-posicion {
             width: 103px;
-            height: 103px;
-            background-color: white;
-            position: absolute;
-            border-radius: 100%;
-            top: 200px;
-            left: 110px;
+height: 103px;
+background-color:
+white;
+position: absolute;
+border-radius: 100%;
+top: 204px;
+left: 139px;
         }
         
         center {
@@ -49,7 +58,7 @@
             position: absolute;
             top: -105px;
             left: -20px;
-            color: black;
+            color:#AA26DA;
         }
         
         .contenido-circulo1 {
@@ -59,7 +68,7 @@
             position: absolute;
             border-radius: 100%;
             top: -50px;
-            right: -45px;
+            right: -20px;
         }
         
         .contenido-circulo2 {
@@ -69,16 +78,21 @@
             position: absolute;
             border-radius: 100%;
             top: 37px;
-            right: 36px;
+            right: 61px;
         }
         
         H1 {
             position: absolute;
-            top: 250px;
-            left: 25px;
+            top: 445px;
+            left: 87px;
             color: white;
         }
         
+        #lugar{
+            position: absolute;
+            top: 360px;
+           left: 186px;
+        }
         
         body{
             margin: 0%;
@@ -116,4 +130,11 @@
             background-image:url(grafica.png);
             background-repeat:no-repeat;
             background-position:center;
+        }
+
+        #cantidad{
+            position: absolute;
+            top: 178px;
+            left: 80px;
+            color:#F1FA3C;
         }
