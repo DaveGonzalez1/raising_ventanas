@@ -3,17 +3,23 @@
 }
 
 .container {
-    display: grid;
-    width: 375px;
-    height: 812px;
-    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: #FFFFFF;
-    grid-template-columns: repeat(auto-fit, mimax(auto));
+    justify-content: center;
+}
+
+.pest1,
+.pest1.active,
+#pest2 {
+    flex-grow: 1;
+    flex-basis: 100%;
 }
 
 .cabeza {
-    display: grid;
-    width: 375px;
+    flex-grow: 1;
+    flex-basis: 100%;
     height: 319px;
     background: rgb(152, 20, 239);
     background: linear-gradient(45deg, rgba(152, 20, 239, 1) 0%, rgba(239, 20, 181, 1) 100%, rgba(0, 212, 255, 1) 100%);
@@ -22,23 +28,23 @@
 }
 
 img {
-    width: 150px;
-    position: center;
-    margin-left: 105px;
-    margin-top: 65px;
+    width: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
 }
 
 .formu {
     display: grid;
-    width: 322px;
-    height: 430px;
+    width: 90%;
+    height: 432px;
     grid-template-columns: 50% 50%;
     box-shadow: 0px 0px 7px #707070;
     background-color: #FFFFFF;
-    align-items: stretch;
-    margin-left: 25px;
-    margin-top: -220px;
+    margin-top: -110px;
     border-radius: 11px;
+    align-content: space-between;
 }
 
 .pest1.active {
@@ -75,47 +81,40 @@ img {
 }
 
 .registro {
-    width: 322px;
+    grid-column: 1/3;
+    align-content: center;
     height: 430px;
-    position: relative;
     border: #ffffff .1px solid;
-    margin-top: 50px;
     color: #A937F0;
 }
 
-.form1 {
-    width: 322px;
-}
-
 input {
-    width: 279px;
-    height: 48px;
-    left: 20px;
+    height: 50px;
     border: #A937F0 1.5px solid;
     font-family: arial;
     color: #A937F0;
     font-size: 14px;
     border-radius: 24px;
-    text-align: left;
-    align-self: left;
 }
 
 #password,
 #email {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     opacity: .5;
-    margin-top: 20px;
+    margin-top: 50px;
     padding-left: 10px;
-    width: 279px;
-    margin-left: 15px;
+    width: 80%;
 }
 
 #Ingresar {
-    width: 279px;
-    height: 48px;
-    top: 65px;
-    left: 15px;
-    align-items: center;
-    position: relative;
+    width: 84%;
+    height: 54px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
     border-radius: 25px 25px 25px 25px;
     background-color: rgb(152, 20, 239);
     border: #A937F0 1.5px solid;
@@ -123,114 +122,66 @@ input {
     opacity: .6;
 }
 
-@media screen and (min-width:1024px) {
-    * {
-        margin: 0px;
-    }
-    .container {
-        width: 100%;
-        height: 2436px;
-        align-items: stretch;
-        background-color: #FFFFFF;
-    }
+@media all and (max-height:640px) and (min-width:320px) {
     .cabeza {
-        width: 100%;
-        height: 50%;
-        background: rgb(152, 20, 239);
-        background: linear-gradient(45deg, rgba(152, 20, 239, 1) 0%, rgba(239, 20, 181, 1) 100%, rgba(0, 212, 255, 1) 100%);
-        border: #5887F9;
-        box-shadow: 2px 2px 20px#707070;
-    }
-    img {
-        width: 300px;
-        position: center;
-        margin-left: 350px;
-        margin-top: 65px;
+        flex-grow: 1;
+        flex-basis: 100%;
+        height: 200px;
     }
     .formu {
-        display: grid;
-        width: 700px;
-        height: 860px;
-        grid-template-columns: 50% 50%;
-        box-shadow: 0px 0px 21px #707070;
-        background-color: #FFFFFF;
-        align-items: stretch;
-        margin-left: 170px;
-        margin-top: -980px;
-        border-radius: 33px;
-    }
-    .pest1.active {
-        background-color: #FFFFFF;
-        border: #ffffff .3px solid;
-        color: #A937F0;
-    }
-    .pest1 {
-        height: 150px;
-        grid-column: 1/2;
-        background-color: #A937F0;
-        border: #A937F0 .3px solid;
-        color: #FFFFFF;
-        align-self: flex-start;
-        border-radius: 33px 0px 0px 0px;
-        border: #707070 .1px solid;
-        font-family: Segoe UI;
-        text-align: center;
-        font-size: 42px;
-    }
-    #pest2 {
-        height: 150px;
-        grid-column: 2/3;
-        align-self: flex-start;
-        background-color: #A937F0;
-        border-radius: 0px 33px 0px 0px;
-        border: #707070 .1px solid;
-        font-family: Segoe UI;
-        text-align: center;
-        font-size: 42px;
-        color: #FFFFFF;
-    }
-    .registro {
-        width: 644px;
-        height: 860px;
-        position: relative;
-        border: #ffffff .1px solid;
-        margin-top: 50px;
-        color: #A937F0;
-    }
-    .form1 {
-        width: 644px;
-    }
-    input {
-        width: 458px;
-        height: 100px;
-        left: 20px;
-        border: #A937F0 2px solid;
-        font-family: arial;
-        color: #A937F0;
-        font-size: 52px;
-        border-radius: 50px;
+        width: 90%;
+        height: 400px;
+        margin-top: -50px;
+        align-content: space-between;
     }
     #password,
     #email {
-        opacity: .5;
-        margin-top: 50px;
-        padding-left: 200px;
-        width: 458px;
-        margin-left: 15px;
+        margin-top: 40px;
     }
     #Ingresar {
-        width: 644px;
-        height: 100px;
-        top: 150px;
-        left: 20px;
-        align-items: center;
-        position: relative;
-        border-radius: 50px 50px 50px 50px;
-        background-color: rgb(152, 20, 239);
-        border: #A937F0 1.5px solid;
-        color: #ffff;
-        opacity: .6;
-        font-size: 40px;
-        font-family: Arial;
+        margin-top: 50px;
     }
+    img {
+        width: 5px;
+        margin-top: 15px;
+    }
+}
+
+@media all and (max-width:1024px) and (min-height:824px) {
+    .cabeza {
+        flex-grow: 1;
+        flex-basis: 100%;
+        height: 500px;
+    }
+    .formu {
+        width: 90%;
+        height: 600px;
+        margin-top: -165px;
+        align-content: space-between;
+    }
+    .pest1,
+    #pest2 {
+        height: 110px;
+        font-size: 35px;
+    }
+    input {
+        font-size: 25px;
+        height: 85px;
+        border-radius: 44px;
+    }
+    #password,
+    #email {
+        margin-top: 33px;
+    }
+    #Ingresar {
+        margin-top: 80px;
+        height: 85px;
+        border-radius: 44px;
+        font-size: 25px;
+    }
+}
+
+img {
+    width: 250px;
+    margin-top: 40px;
 }
