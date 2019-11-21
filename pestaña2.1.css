@@ -1,0 +1,212 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 100%;
+
+    background: rgb(119, 121, 123);
+            background: linear-gradient(180deg, rgba(119, 121, 123, 1) 0%,
+             rgba(205, 209, 189, 1) 22%, rgba(241, 242, 236, 1) 36%, rgba(255, 255, 255, 1) 100%);
+    justify-content: center;
+}
+
+
+.conteiner-contenido{
+    justify-content: center;
+     height: ;
+     background-color: #2EB0D9;
+    
+            border-radius: 10px 10px 10px 10px;
+            
+}
+.contenido-circulo1 {
+    width: 100%;
+background-color:
+rgba(255, 255, 255, 0.164);
+
+border-radius: 100%;
+top: -50px;
+
+}
+
+.contenido-circulo2 {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.247);
+    
+    border-radius: 100%;
+    top: -400px;
+
+}
+
+.cabeza {
+    flex-grow: 1;
+    flex-basis: 100%;
+    height: 319px;
+    background: rgb(152, 20, 239);
+    background: linear-gradient(45deg, rgba(152, 20, 239, 1) 0%, rgba(239, 20, 181, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    border: #5887F9;
+    box-shadow: 2px 2px 20px#707070;
+}
+
+img {
+    width: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+}
+
+.formu {
+    display: grid;
+    width: 90%;
+    height: 432px;
+    grid-template-columns: 50% 50%;
+    box-shadow: 0px 0px 7px #707070;
+    background-color: #FFFFFF;
+    margin-top: -110px;
+    border-radius: 11px;
+    align-content: space-between;
+}
+
+.pest1.active {
+    background-color: #FFFFFF;
+    border: #ffffff .1px solid;
+    color: #A937F0;
+}
+
+.pest1 {
+    height: 65px;
+    grid-column: 1/2;
+    background-color: #A937F0;
+    border: #A937F0 .1px solid;
+    color: #FFFFFF;
+    align-self: flex-start;
+    border-radius: 11px 0px 0px 0px;
+    border: #707070 .1px solid;
+    font-family: Segoe UI;
+    text-align: center;
+    font-size: 21px;
+}
+
+#pest2 {
+    height: 65px;
+    grid-column: 2/3;
+    align-self: flex-start;
+    background-color: #A937F0;
+    border-radius: 0px 11px 0px 0px;
+    border: #707070 .1px solid;
+    font-family: Segoe UI;
+    text-align: center;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.registro {
+    grid-column: 1/3;
+    align-content: center;
+    height: 430px;
+    border: #ffffff .1px solid;
+    color: #A937F0;
+}
+
+input {
+    height: 50px;
+    border: #A937F0 1.5px solid;
+    font-family: arial;
+    color: #A937F0;
+    font-size: 14px;
+    border-radius: 24px;
+}
+
+#password,
+#email {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;
+    margin-top: 50px;
+    padding-left: 10px;
+    width: 80%;
+}
+
+#Ingresar {
+    width: 84%;
+    height: 54px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: rgb(152, 20, 239);
+    border: #A937F0 1.5px solid;
+    color: #ffff;
+    opacity: .6;
+}
+
+@media all and (max-height:640px) and (min-width:320px) {
+    .cabeza {
+        flex-grow: 1;
+        flex-basis: 100%;
+        height: 200px;
+    }
+    .formu {
+        width: 90%;
+        height: 400px;
+        margin-top: -50px;
+        align-content: space-between;
+    }
+    #password,
+    #email {
+        margin-top: 40px;
+    }
+    #Ingresar {
+        margin-top: 50px;
+    }
+    img {
+        width: 5px;
+        margin-top: 15px;
+    }
+}
+
+@media all and (max-width:1024px) and (min-height:824px) {
+    .cabeza {
+        flex-grow: 1;
+        flex-basis: 100%;
+        height: 500px;
+    }
+    .formu {
+        width: 90%;
+        height: 600px;
+        margin-top: -165px;
+        align-content: space-between;
+    }
+    .pest1,
+    #pest2 {
+        height: 110px;
+        font-size: 35px;
+    }
+    input {
+        font-size: 25px;
+        height: 85px;
+        border-radius: 44px;
+    }
+    #password,
+    #email {
+        margin-top: 33px;
+    }
+    #Ingresar {
+        margin-top: 80px;
+        height: 85px;
+        border-radius: 44px;
+        font-size: 25px;
+    }
+}
+
+img {
+    width: 250px;
+    margin-top: 40px;
+}
