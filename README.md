@@ -4,4 +4,4 @@ hice la "ultima actualizacion de LOGIN.HTML"
 se creo el nuevo html inversion adicom.html
 rama inversion adicom.html
 botones
-inversionista-home-
+inversionista-home
