@@ -1,4 +1,5 @@
         
+        
         body{
             background: rgb(119, 121, 123);
             background: linear-gradient(180deg, rgba(119, 121, 123, 1) 0%,
@@ -11,6 +12,7 @@
               float:none;
               height: 80%;
             }
+<<<<<<< HEAD
             
                 
           }
@@ -20,8 +22,12 @@
             margin: auto;
             max-width: 500px;
             
+=======
+           
+                 
+>>>>>>> bfd9c3fc2a9b72c25968df219721d7d69a2b16a4
 
-        }
+        
         
         .base-contenido {
             width: 322px;
@@ -32,6 +38,7 @@
             top: 50px;
             left: 26px;
             margin: 20px auto;
+            max-width: 1000px;
         }
         
         
@@ -137,3 +144,13 @@ left: 165px;
 left: 84px;
             color:#F1FA3C;
         }
+
+
+
+        @media all and (max-width: 80em) {
+            .base  .base-contenido .boton-estadisticas .boton-lista .contenido-circulo1 .contenido-circulo2
+            .contenido-posicion  #h1 #cantidad #lugar {
+              width: 1000px;
+             
+            }
+      }
