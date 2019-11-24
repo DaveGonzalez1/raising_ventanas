@@ -1,11 +1,15 @@
         
       *{
-          margin: 0px;
-      }  
+          margin-top: 0px;
+          
+      } 
+      
         
- 
+       body{
+           margin: 0%;
+       }
     .contenedor{
-        margin-top: 0px;
+        
         position: absolute;
         width: 375px;
         height: 812px;
@@ -21,8 +25,7 @@
 .base-contenido {
     width: 322px;
     height: 700px;
-    background-color: #2EB0D9;
-     
+    background-color: #2eb0d9;
     border-radius: 10px 10px 10px 10px;
     top: 50px;
     left: 26px;
@@ -89,9 +92,7 @@ H1 {
 left: 165px;
 }
 
-body{
-    margin: 0%;
-}
+
 
 .boton-estadisticas{
     width: 56px;
@@ -138,8 +139,11 @@ left: 84px;
 
 @media all and (max-width:1024px) and (min-height:824px) {
 
+    body{
+        margin:0px;
+    }
     .contenedor{
-        margin-top: 0px;
+        
         position: absolute;
         width: 1024px;
         height: 824px;
@@ -148,121 +152,232 @@ left: 84px;
         rgba(205, 209, 189, 1) 22%, rgba(241, 242, 236, 1) 36%, rgba(255, 255, 255, 1) 100%);
    }
 .base-contenido {
-    width: 603px;
+    width: 440px;
     height: 700px;
     background-color: #2EB0D9;
-     position: absolute;
+    position: absolute;
     border-radius: 10px 10px 10px 10px;
-    top: 100px;
-    margin-left:50px;
-    
+    top: 30px;
+    margin-left: 130px;
     max-width: 1000px;
 }
 
-
-  
-
-
 .contenido-posicion {
-    width: 103px;
-height: 103px;
-background-color:
-white;
-position: relative;
-border-radius: 100%;
-top: -482px;
-left: 118px;
-
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    position: relative;
+    border-radius: 100%;
+    top: -586px;
+    left: 180px;
 }
 
 center {
     width: 52px;
     height: 39px;
     position: relative;
-    top: -105px;
-    left: -20px;
-    color:#AA26DA;
+    top: -76px;
+    left: -14px;
+    color: #AA26DA;
 }
 
 .contenido-circulo1 {
-    width: 403px;
-height: 403px;
-background-color:
-rgba(255, 255, 255, 0.164);
-position: relative;
-border-radius: 100%;
-top: -50px;
-right: 36px;
+    width: 490px;
+    height: 490px;
+    background-color: rgba(255, 255, 255, 0.164);
+    position: relative;
+    border-radius: 100%;
+    top: -80px;
+    left: -23px;
 }
 
 .contenido-circulo2 {
-    width: 243px;
-    height: 243px;
+    width: 290px;
+    height: 290px;
     background-color: rgba(255, 255, 255, 0.247);
     position: relative;
     border-radius: 100%;
-    top: -400px;
-right: -45px;
+    top: -490px;
+    left: 80px;
 }
 
 H1 {
     position: relative;
-    top: -470px;
-    left: 70px;
+    top: -571px;
+    left: 89px;
+    font-size: 70px;
     color: white;
 }
 
 #lugar{
     position: relative;
-    top: -460px;
-left: 165px;
+    top: -618px;
+    left: 203px;
+    font-size: 60px;
 }
 
-body{
-    margin: 0%;
-}
+
 
 .boton-estadisticas{
-    width: 56px;
-    height: 56px;
+    width: 70px;
+    height: 70px;
     border-radius: 200px 200px 200px 200px;
--moz-border-radius: 200px 200px 200px 200px;
--webkit-border-radius: 200px 200px 200px 200px;
-border: 2px solid#DBE336;
-background:#2EB0D9 ;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 2px solid#DBE336;
+    background: #2EB0D9;
     position: relative;
-    left: 42px;
-    top: -357px;
-
-    background-image:url(like.png);
-    background-repeat:no-repeat;
-    background-position:center;
+    left: 60px;
+    top: -547px;
+    background-image: url(like.png);
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 .boton-lista{
-    width: 56px;
-    height: 56px;
+    width: 70px;
+    height: 70px;
     border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
     border: 2px solid #DBE336;
-    background:#2EB0D9;
+    background: #2EB0D9;
     position: relative;
-    left: 165px;
-    top: -357px;
-
-    background-image:url(grafica.png);
-    background-repeat:no-repeat;
-    background-position:center;
+    left: 241px;
+    top: -547px;
+    background-image: url(grafica.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #cantidad{
     position: relative;
-    top: 165px;
-left: 84px;
-    color:#F1FA3C;
+    top: 200px;
+    left: 108px;
+    color: #F1FA3C;
+    font-size: 55px;
+}
 }
     
-@media all and (max-height:640px) and (min-width:320px){
+@media all and (max-height:350px) and (min-width:650px){
+  
+    body{
+        margin: 0%;
+    }
+ .contenedor{
+     
+     position: absolute;
+     width: 360px;
+     height: 640px;
+    background: rgb(119, 121, 123);
+    background: linear-gradient(180deg, rgba(119, 121, 123, 1) 0%,
+     rgba(205, 209, 189, 1) 22%, rgba(241, 242, 236, 1) 36%, rgba(255, 255, 255, 1) 100%);
+}
 
+.base-contenido {
+    width: 271px;
+    height: 582px;
+    background-color: #2eb0d9;
+    border-radius: 10px 10px 10px 10px;
+    top: 45px;
+    left: 2px;
+    margin: 20px 20px auto;
+    max-width: 1000px;
+}
+.contenido-posicion {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    position: relative;
+    border-radius: 100%;
+    top: -436px;
+    left: 96px;
+}
+
+
+center {
+ width: 52px;
+ height: 39px;
+ position: relative;
+ top: -105px;
+ left: -20px;
+ color:#AA26DA;
+}
+
+.contenido-circulo1 {
+    width: 361px;
+    height: 361px;
+    background-color: rgba(255, 255, 255, 0.164);
+    position: relative;
+    border-radius: 100%;
+    top: -34px;
+    right: 52px;
+}
+
+.contenido-circulo2 {
+    width: 225px;
+    height: 226px;
+    background-color: rgba(255, 255, 255, 0.247);
+    position: relative;
+    border-radius: 100%;
+    top: -357px;
+    right: -22px
+}
+
+H1 {
+    position: relative;
+    top: -431px;
+    left: 43px;
+    color: white;
+}
+
+#lugar{
+    position: relative;
+    top: -410px;
+    left: 137px;
+}
+
+
+
+.boton-estadisticas{
+ width: 56px;
+ height: 56px;
+ border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 2px solid#DBE336;
+background:#2EB0D9 ;
+ position: relative;
+ left: 30px;
+ top: -357px;
+
+ background-image:url(like.png);
+ background-repeat:no-repeat;
+ background-position:center;
+ 
+}
+.boton-lista{
+ width: 56px;
+ height: 56px;
+ border-radius: 200px 200px 200px 200px;
+ -moz-border-radius: 200px 200px 200px 200px;
+ -webkit-border-radius: 200px 200px 200px 200px;
+ border: 2px solid #DBE336;
+ background:#2EB0D9;
+ position: relative;
+ left: 135px;
+ top: -357px;
+
+ background-image:url(grafica.png);
+ background-repeat:no-repeat;
+ background-position:center;
+}
+
+#cantidad{
+    position: relative;
+    font-size: 44px;
+    top: 137px;
+    left: 75px;
+    color: #F1FA3C;
+}
 }
