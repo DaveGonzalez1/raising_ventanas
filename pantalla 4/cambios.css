@@ -1,0 +1,35 @@
+.contenedor {
+    padding: 0%;
+    width: 100%;
+    height: 812px;
+    background-image: url(biascardoso.jpeg)
+}
+
+.nave {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    background-color: transparent;
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 100px;
+    border-width: 2px;
+    border-color: yellow;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+.grafico {
+    width: 91px;
+    height: 91px;
+    position: fixed;
+    background-color: transparent;
+    border-radius: 100%;
+    margin-top: -280px;
+    margin-left: 140px;
+    border-width: 2px;
+    border-color: yellow;
+}
