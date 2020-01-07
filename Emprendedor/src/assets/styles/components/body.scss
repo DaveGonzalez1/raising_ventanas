@@ -1,0 +1,113 @@
+body {
+    margin: 0%;
+}
+
+.contenedor {
+    position: absolute;
+    width: 375px;
+    height: auto;
+    overflow: hidden;
+    background: rgb(119, 121, 123);
+    background: linear-gradient(180deg, rgba(119, 121, 123, 1) 0%, rgba(205, 209, 189, 1) 22%, rgba(241, 242, 236, 1) 36%, rgba(255, 255, 255, 1) 100%);
+}
+
+.base-contenido {
+    width: 322px;
+    height: 700px;
+    background-color: #2eb0d9;
+    border-radius: 10px 10px 10px 10px;
+    top: 50px;
+    left: 26px;
+    margin: 20px auto;
+}
+
+.contenido-posicion {
+    width: 103px;
+    height: 103px;
+    background-color: white;
+    position: relative;
+    border-radius: 100%;
+    top: 173px;
+    left: 74px;
+}
+
+center {
+    width: 52px;
+    height: 39px;
+    position: relative;
+    top: -105px;
+    left: -20px;
+    color: #AA26DA;
+}
+
+.contenido-circulo1 {
+    width: 403px;
+    height: 403px;
+    background-color: rgba(255, 255, 255, 0.164);
+    position: relative;
+    border-radius: 100%;
+    top: -50px;
+    right: 36px;
+}
+
+.contenido-circulo2 {
+    width: 243px;
+    height: 243px;
+    background-color: rgba(255, 255, 255, 0.247);
+    position: relative;
+    border-radius: 100%;
+    top: -400px;
+    right: -45px;
+}
+
+H1 {
+    position: relative;
+    top: -292px;
+    left: 70px;
+    color: white;
+}
+
+#lugar {
+    position: relative;
+    top: 139px;
+    left: 45px;
+}
+
+.boton-estadisticas {
+    width: 56px;
+    height: 56px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 2px solid#DBE336;
+    background: #2EB0D9;
+    position: relative;
+    left: 42px;
+    top: -178px;
+    background-image: url(/src/assets/static/like.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.boton-lista {
+    width: 56px;
+    height: 56px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 2px solid #DBE336;
+    background: #2EB0D9;
+    position: relative;
+    left: 165px;
+    top: -178px;
+    background-image: url(/src/assets/static/grafica.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cantidad {
+    position: relative;
+    top: 165px;
+    left: 84px;
+    color: #F1FA3C;
+}
